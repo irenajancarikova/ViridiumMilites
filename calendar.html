@@ -1,0 +1,85 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <title>Viridium Milites</title>
+  <meta name="description" content="website description" />
+  <meta name="keywords" content="website keywords, website keywords" />
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
+  <!-- modernizr enables HTML5 elements and feature detects -->
+  <script type="text/javascript" src="js/modernizr-1.5.min.js"></script>
+</head>
+
+<body>
+  <div id="main">
+    <header>
+      <div id="logo"><img  src="images/erb_malinkaty_nahoru.png" /></div>
+      <nav>
+        <ul class="lavaLampWithImage" id="lava_menu">
+          <li class="current"><a href="index.html">Aktuality</a></li>
+          <li><a href="offers.html">Nabízíme</a></li>
+          <li><a href="page.html">O skupině</a></li>
+          <li><a href="another_page.html">Fotogalerie</a></li>
+          <li><a href="contact.php">Kontaktujte nás</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div id="site_content">
+      <ul class="slideshow">
+        <li class="show"><img width="950" height="350" src="images/1.jpg" alt="&quot;You can put a caption for your image right here&quot;" /></li>
+        <li><img width="950" height="350" src="images/2.jpg" alt="&quot;You can put a description of the image here if you like, or anything else if you want.&quot;" /></li>
+        <li><img width="950" height="350" src="images/3.jpg" alt="&quot;You can put a description of the image here if you like, or anything else if you want.&quot;" /></li>
+      </ul>
+      <div id="sidebar_container">
+        <div class="sidebar">
+          <h3>Novinky</h3>
+          <h4>New Website Launched</h4>
+          <h5>October 1st, 2013</h5>
+          <p>2013 sees the redesign of our website. Take a look around and let us know what you think.<br /><a href="#">Read more</a></p>
+        </div>
+        <div class="sidebar">
+          <h3>Odkazy</h3>
+          <ul>
+            <li><a href="#">Nabízená vystoupení</a></li>
+            <li><a href="#">Kalendář akcí</a></li>
+			<li><a href="#">Facebook</a></li>
+			<li><a href="#">Nábor</a></li>
+			<li><a href="#">Kontaktujte nás</a></li>
+          </ul>
+        </div>
+      </div>
+      <div id="content">
+         <table style="width:100%; border-spacing:0;">
+		  <h1> Akce 2017 </h2>
+          <tr><th>Datum</th><th>Název akce</th><th>Místo konání</th></tr>
+          <tr><td>2. 6. 2017</td><td>Noc na Karlštejně</td><td>Dobřichovice, zámek</td></tr>
+		  <tr><td>3. 6. 2017</td><td>Kováři v Litni</td><td>Liteň</td></tr>
+          <tr><td>3. 6. 2017</td><td>Noc na Karlštejně</td><td>Dobřichovice, zámek</td></tr>
+		  <tr><td>4. 6. 2017</td><td>Kováři v Litni</td><td>Liteň</td></tr>
+          <tr><td>4. 8. 2017</td><td>Noc na Karlštejně</td><td>Mníšek pod Brdy, zámek</td></tr>
+          <tr><td>5. 8. 2017</td><td>Noc na Karlštejně</td><td>Mníšek pod Brdy, zámek</td></tr>
+		  <tr><td>30. 9. 2017</td><td>Noc na Karlštejně</td><td>Karlštejn, pod mostem</td></tr>
+        </table>
+		</div>
+    </div>
+    <footer>
+      <p><a href="index.html">Aktuality</a> | <a href="offers.html">Nabízíme</a> | <a href="page.html">O skupině</a> | <a href="another_page.html">Fotogalerie</a> | <a href="contact.php">Kontaktujte nás</a></p>
+      <p>&copy; 2013 CSS3_B&W3. All Rights Reserved. | <a href="http://www.css3templates.co.uk">design from css3templates.co.uk</a></p>
+    </footer>
+  </div>
+  <!-- javascript at the bottom for fast page loading -->
+  <script type="text/javascript" src="js/jquery.min.js"></script>
+  <script type="text/javascript" src="js/jquery.easing.min.js"></script>
+  <script type="text/javascript" src="js/jquery.lavalamp.min.js"></script>
+  <script type="text/javascript" src="js/image_fade.js"></script>
+  <script type="text/javascript">
+    $(function() {
+      $("#lava_menu").lavaLamp({
+        fx: "backout",
+        speed: 700
+      });
+    });
+  </script>
+</body>
+</html>
